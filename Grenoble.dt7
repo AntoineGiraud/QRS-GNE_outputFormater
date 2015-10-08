@@ -1,117 +1,117 @@
-GNE 1.09
-Pénalité de Passage                        0.00000000000000E+0000          0 0 
-Pénalité de Virage-À-Gauche                0.00000000000000E+0000          0 0 
-Pénalité de Virage-À-Droite                0.00000000000000E+0000          0 0 
-Pénalité pour Autres Mouvement             0.00000000000000E+0000          0 0 
-Échelle (Pixels/Km)                        9.60000000000000E+0001          0 0 
-Vitesse par défaut ( km/hre)               2.00000000000000E+0001          0 0 
-Revenu:0,  Poss.Auto=1                     0.00000000000000E+0000          0 0 
-Population régionale (x 1000)              5.00000000000000E+0001          0 0 
-Heure début simulation [0..23]             0.00000000000000E+0000          0 0 
-Heure fin simulation [0..23]               2.30000000000000E+0001          0 0 
-                                           0.00000000000000E+0000          0 0                                                   
-                                           0.00000000000000E+0000          0 0                                                   
-                                           0.00000000000000E+0000          0 0                                                   
-                                           0.00000000000000E+0000          0 0                                                   
-                                           0.00000000000000E+0000          0 0                                                   
-                                           0.00000000000000E+0000          0 0                                                   
-                                           0.00000000000000E+0000          0 0                                                   
-                                           0.00000000000000E+0000          0 0                                                   
-                                           0.00000000000000E+0000          0 0                                                   
-                                           0.00000000000000E+0000          0 0                                                   
-                                           0.00000000000000E+0000          0 0                                                   
-                                           0.00000000000000E+0000          0 0                                                   
-                                           0.00000000000000E+0000          0 0                                                   
-                                           0.00000000000000E+0000          0 0                                                   
-                                           0.00000000000000E+0000          0 0                                                   
-                                           0.00000000000000E+0000          0 0                                                   
-                                           0.00000000000000E+0000          0 0                                                   
-                                           0.00000000000000E+0000          0 0                                                   
-                                           0.00000000000000E+0000          0 0                                                   
-                                           0.00000000000000E+0000          0 0                                                   
-                                           0.00000000000000E+0000          0 0                                                   
-                                           0.00000000000000E+0000          0 0                                                   
-                                           0.00000000000000E+0000          0 0                                                   
-                                           0.00000000000000E+0000          0 0                                                   
-                                           0.00000000000000E+0000          0 0                                                   
-Undefined                                1 4 0
+GNE 1.08
+Pénalité de Passage              0.00000000000000E+0000          0 0 
+Pénalité de Virage-À-Gauche      0.00000000000000E+0000          0 0 
+Pénalité de Virage-À-Droite      0.00000000000000E+0000          0 0 
+Pénalité pour Autres Mouvement   0.00000000000000E+0000          0 0 
+Échelle (Pixels/Km)              9.60000000000000E+0001          0 0 
+Vitesse par défaut ( km/hre)     2.00000000000000E+0001          0 0 
+Revenu:0,  Poss.Auto=1           0.00000000000000E+0000          0 0 
+Population régionale (x 1000)    5.00000000000000E+0001          0 0 
+Heure début simulation [0..23]   0.00000000000000E+0000          0 0 
+Heure fin simulation [0..23]     2.30000000000000E+0001          0 0 
+                                 0.00000000000000E+0000          0 0                                                   
+                                 0.00000000000000E+0000          0 0                                                   
+                                 0.00000000000000E+0000          0 0                                                   
+                                 0.00000000000000E+0000          0 0                                                   
+                                 0.00000000000000E+0000          0 0                                                   
+                                 0.00000000000000E+0000          0 0                                                   
+                                 0.00000000000000E+0000          0 0                                                   
+                                 0.00000000000000E+0000          0 0                                                   
+                                 0.00000000000000E+0000          0 0                                                   
+                                 0.00000000000000E+0000          0 0                                                   
+                                 0.00000000000000E+0000          0 0                                                   
+                                 0.00000000000000E+0000          0 0                                                   
+                                 0.00000000000000E+0000          0 0                                                   
+                                 0.00000000000000E+0000          0 0                                                   
+                                 0.00000000000000E+0000          0 0                                                   
+                                 0.00000000000000E+0000          0 0                                                   
+                                 0.00000000000000E+0000          0 0                                                   
+                                 0.00000000000000E+0000          0 0                                                   
+                                 0.00000000000000E+0000          0 0                                                   
+                                 0.00000000000000E+0000          0 0                                                   
+                                 0.00000000000000E+0000          0 0                                                   
+                                 0.00000000000000E+0000          0 0                                                   
+                                 0.00000000000000E+0000          0 0                                                   
+                                 0.00000000000000E+0000          0 0                                                   
+                                 0.00000000000000E+0000          0 0                                                   
+Undefined                      1 4 0
  0 0 0 0 0 0 0 0 0 0
-Carrefour avec retard                    9 7 7
+Carrefour avec retard          9 7 7
  0 0 0 0 0 0 0 0 0 0
-Ajustement de Passage                    0 R 0 
-Ajustement de Virage-à-Gauche            0 R 0 
-Ajustement de virage-à-Droite            0 R 0 
-Ajustement Autres Mouvements             0 R 0 
-Cycle (secondes)                         0 R 0 
-Capacité potentielle minimale            0 R 0 
-Demi-Tour (0=non, 1=oui)                 0 R 0 
-Centroïde                                10 6 7
+Ajustement de Passage          0 R 0 
+Ajustement de Virage-à-Gauche  0 R 0 
+Ajustement de virage-à-Droite  0 R 0 
+Ajustement Autres Mouvements   0 R 0 
+Cycle (secondes)               0 R 0 
+Capacité potentielle minimale  0 R 0 
+Demi-Tour (0=non, 1=oui)       0 R 0 
+Centroïde                      10 6 7
  0 0 0 0 0 0 0 0 0 0
-Revenu (x 1 000)                         0 R 0 
-Possession auto (auto/mén.)              0 R 0 
-Nb d'Emplois                             0 R 0 
-Nb d'inscriptions scolaire               0 R 0 
-Nb de Ménages                            0 R 0 
-Temps: déplacement intra-zonal           2 R 2 
+Revenu (x 1 000)               0 R 0 
+Possession auto (auto/mén.)    0 R 0 
+Nb d'Emplois                   0 R 0 
+Nb d'inscriptions scolaire     0 R 0 
+Nb de Ménages                  0 R 0 
+Temps: déplacement intra-zonal 2 R 2 
 CONSTANT                        4.50000000000000E+0001  1.00000000000000E+0000 
 
 Vitesse intra-zonale (km/h)    -1.00000000000000E+0000  5.00000000000000E+0000 
 
 surface brute (km2) **mi2**     5.00000000000000E-0001  1.50000000000000E+0000 
 
-INTRAZONAL TRIPS ==>                     0 R 0 
-Marque: Source d'arborescence            2 3 1
+INTRAZONAL TRIPS ==>           0 R 0 
+Marque: Source d'arborescence  2 3 1
  0 0 0 0 0 0 0 0 0 0
-Calcul d'arbre seul. (1=oui)             0 R 0 
-Carrefour (noeud)                        3 7 0
+Calcul d'arbre seul. (1=oui)   0 R 0 
+Carrefour (noeud)              3 7 0
  0 0 0 0 0 0 0 0 0 0
-Station externe                          4 6 9
+Station externe                4 6 9
  0 0 0 0 0 0 0 0 0 0
-TBD: Productions                         0 R 0 
-ÉBD: Productions                         0 R 0 
-ABD: Productions                         0 R 0 
-AUTRE: Productions                       0 R 0 
-TBD: Attractions                         0 R 0 
-ÉDB: Attractions                         0 R 0 
-ABD: Attractions                         0 R 0 
-AUTRE: Attractions                       0 R 0 
-TRAVEL TIME FROM SEED ==>                0 R 0 
-Générateur ponctuel                      6 6 7
+TBD: Productions               0 R 0 
+ÉBD: Productions               0 R 0 
+ABD: Productions               0 R 0 
+AUTRE: Productions             0 R 0 
+TBD: Attractions               0 R 0 
+ÉDB: Attractions               0 R 0 
+ABD: Attractions               0 R 0 
+AUTRE: Attractions             0 R 0 
+TRAVEL TIME FROM SEED ==>      0 R 0 
+Générateur ponctuel            6 6 7
  0 0 0 0 0 0 0 0 0 0
-Revenu (x 1 000)                         0 R 0 
-Possession auto (auto/mén.)              0 R 0 
-Nb d'Emplois                             0 R 0 
-Nb d'inscriptions scolaire               0 R 0 
-Nb de Ménages                            0 R 0 
-Temps: déplacement intra-zonal           2 R 2 
+Revenu (x 1 000)               0 R 0 
+Possession auto (auto/mén.)    0 R 0 
+Nb d'Emplois                   0 R 0 
+Nb d'inscriptions scolaire     0 R 0 
+Nb de Ménages                  0 R 0 
+Temps: déplacement intra-zonal 2 R 2 
 CONSTANT                        4.50000000000000E+0001  1.00000000000000E+0000 
 
 Vitesse intra-zonale (km/h)    -1.00000000000000E+0000  2.00000000000000E+0001 
 
 surface brute (km2) **mi2**     5.00000000000000E-0001  0.00000000000000E+0000 
 
-INTRAZONAL TRIPS ==>                     0 R 0 
-Marque: Production/Attraction            5 3 8
+INTRAZONAL TRIPS ==>           0 R 0 
+Marque: Production/Attraction  5 3 8
  0 0 0 0 0 0 0 0 0 0
-TBD: Productions                         0 R 0 
-ÉBD: Productions                         0 R 0 
-ABD: Productions                         0 R 0 
-AUTRE: Productions                       0 R 0 
-TBD: Attractions                         0 R 0 
-ÉDB: Attractions                         0 R 0 
-ABD: Attractions                         0 R 0 
-AUTRE: Attractions                       0 R 0 
-Marque: Agrégation                       7 3 0
+TBD: Productions               0 R 0 
+ÉBD: Productions               0 R 0 
+ABD: Productions               0 R 0 
+AUTRE: Productions             0 R 0 
+TBD: Attractions               0 R 0 
+ÉDB: Attractions               0 R 0 
+ABD: Attractions               0 R 0 
+AUTRE: Attractions             0 R 0 
+Marque: Agrégation             7 3 0
  0 0 0 0 0 0 0 0 0 0
-                                         0 0 0
+                               0 0 0
  0 0 0 0 0 0 0 0 0 0
-                                         0 0 0
+                               0 0 0
  0 0 0 0 0 0 0 0 0 0
-Undefined                                1 4 0
+Undefined                      1 4 0
  0 0 0 0 0 0 0 0 0 0
-Lien Uni-Directionnel                    1 7 7
+Lien Uni-Directionnel          1 7 7
  0 0 0 0 0 0 0 0 0 0
-Codes d'approches                        3 C 0 
+Codes d'approches              3 C 0 
 CONSTANT                        0.00000000000000E+0000  1.00000000000000E+0000 
 
 Continuité                      0.00000000000000E+0000  0.00000000000000E+0000 0123456789
@@ -120,8 +120,8 @@ Géométrie et Signalisation      0.00000000000000E+0000  0.00000000000000E+0000 E
 
 Progression                     0.00000000000000E+0000  0.00000000000000E+0000 12345
 
-Vitesse (km/h)                           0 R 0 
-Temps de parcours A-B (min)              5 R 0 v1*(1+p2*v5*(((v2+v4)/v3)^p3))
+Vitesse (km/h)                 0 R 0 
+Temps de parcours A-B (min)    5 R 0 v1*(1+p2*v5*(((v2+v4)/v3)^p3))
 CONSTANT                        0.00000000000000E+0000  1.00000000000000E+0000 
 
 <6> Temps à écoul.libre         0.00000000000000E+0000  0.00000000000000E+0000 
@@ -134,19 +134,19 @@ CONSTANT                        0.00000000000000E+0000  1.00000000000000E+0000
 
 Facteur d'Ajustement Horaire    0.00000000000000E+0000  1.00000000000000E+0000 
 
-   Débit de base A-B                     0 R 0 
-   Capacité (Véhicules/Heure)            0 R 0 
-   Temps à écoul.libre A-B               2 R 2 
+   Débit de base A-B           0 R 0 
+   Capacité (Véhicules/Heure)  0 R 0 
+   Temps à écoul.libre A-B     2 R 2 
 CONSTANT                        0.00000000000000E+0000  1.00000000000000E+0000 
 
 Distance (km)                   0.00000000000000E+0000  0.00000000000000E+0000 
 
 Vitesse légale (km/h)           0.00000000000000E+0000  0.00000000000000E+0000 
 
-VOLUME A TO B ==>                        0 R 0 
-Lien Bi-Directionnel                     2 7 10
+VOLUME A TO B ==>              0 R 0 
+Lien Bi-Directionnel           2 7 10
  0 0 0 0 0 0 0 0 0 0
-Codes d'approches                        3 C 0 
+Codes d'approches              3 C 0 
 CONSTANT                        0.00000000000000E+0000  1.00000000000000E+0000 
 
 Continuité                      0.00000000000000E+0000  0.00000000000000E+0000 0123456789
@@ -155,8 +155,8 @@ Géométrie et Signalisation      0.00000000000000E+0000  0.00000000000000E+0000 E
 
 Progression                     0.00000000000000E+0000  0.00000000000000E+0000 12345
 
-Vitesse (km/h)                           0 R 0 
-Temps de parcours A-B (min)              5 R 0 v1*(1+p2*v5*(((v2+v4)/v3)^p3))
+Vitesse (km/h)                 0 R 0 
+Temps de parcours A-B (min)    5 R 0 v1*(1+p2*v5*(((v2+v4)/v3)^p3))
 CONSTANT                        0.00000000000000E+0000  1.00000000000000E+0000 
 
 <8> Temps à écoul.libre         0.00000000000000E+0000  0.00000000000000E+0000 
@@ -169,7 +169,7 @@ CONSTANT                        0.00000000000000E+0000  1.00000000000000E+0000
 
 Facteur d'Ajustement Horaire    0.00000000000000E+0000  1.00000000000000E+0000 
 
-Temps de parcours B-A (min)              5 R 0 v1*(1+p2*v5*(((v2+v4)/v3)^p3))
+Temps de parcours B-A (min)    5 R 0 v1*(1+p2*v5*(((v2+v4)/v3)^p3))
 CONSTANT                        0.00000000000000E+0000  1.00000000000000E+0000 
 
 <8> Temps à écoul.libre         0.00000000000000E+0000  0.00000000000000E+0000 
@@ -182,22 +182,22 @@ CONSTANT                        0.00000000000000E+0000  1.00000000000000E+0000
 
 Facteur d'Ajustement Horaire    0.00000000000000E+0000  1.00000000000000E+0000 
 
-   Débit de base A-B                     0 R 0 
-   Débit de base B-A                     0 R 0 
-   Capacité (véhicules/heure)            0 R 0 
-   Temps à écoul.libre (min)             2 R 2 
+   Débit de base A-B           0 R 0 
+   Débit de base B-A           0 R 0 
+   Capacité (véhicules/heure)  0 R 0 
+   Temps à écoul.libre (min)   2 R 2 
 CONSTANT                        6.00000000000000E+0001  1.00000000000000E+0000 
 
 Distance (km)                   1.00000000000000E+0000  0.00000000000000E+0000 
 
 Vitesse légale (km/h)          -1.00000000000000E+0000  0.00000000000000E+0000 
 
-VOLUME A TO B ==>                        0 R 0 
-VOLUME B TO A ==>                        0 R 0 
-Connecteur de centroïde                  2 6 6
+VOLUME A TO B ==>              0 R 0 
+VOLUME B TO A ==>              0 R 0 
+Connecteur de centroïde        2 6 6
  0 0 0 0 0 0 0 0 0 0
-  (Not Used)                             0 R 0 
-Vitesse (km/h)                           6 R 6 
+  (Not Used)                   0 R 0 
+Vitesse (km/h)                 6 R 6 
 CONSTANT                        8.26446280990000E+0001  1.00000000000000E+0000 
 
 % CV, Artères                   1.50000000000000E+0001  0.00000000000000E+0000 
@@ -212,7 +212,7 @@ CONSTANT                        8.26446280990000E+0001  1.00000000000000E+0000
 
 % Banlieue, Autoroutes          4.60000000000000E+0001  0.00000000000000E+0000 
 
-temps de parcours A-B (min)              3 R 0 p0 + p1*p2*v2/v1 + v3/p3
+temps de parcours A-B (min)    3 R 0 p0 + p1*p2*v2/v1 + v3/p3
 CONSTANT                        0.00000000000000E+0000  1.00000000000000E+0000 
 
 <2> Vitesse                     6.00000000000000E+0001  0.00000000000000E+0000 
@@ -221,7 +221,7 @@ Distance (km)                   1.00000000000000E+0000  0.00000000000000E+0000
 
 Coût "Out-of-Pocket" (argent)   1.00000000000000E-0001  0.00000000000000E+0000 
 
-Temps de parcours B-A (min)              3 R 0 p0 + p1*p2*v2/v1 + v3/p3
+Temps de parcours B-A (min)    3 R 0 p0 + p1*p2*v2/v1 + v3/p3
 CONSTANT                        0.00000000000000E+0000  1.00000000000000E+0000 
 
 <2> Vitesse                     6.00000000000000E+0001  0.00000000000000E+0000 
@@ -230,11 +230,11 @@ Distance (km)                   1.00000000000000E+0000  0.00000000000000E+0000
 
 Coût "Out-of-Pocket" (argent)   1.00000000000000E-0001  0.00000000000000E+0000 
 
-VOLUME A TO B ==>                        0 R 0 
-VOLUME B TO A ==>                        0 R 0 
-Lien Bi-Directionnel sans VAG            2 5 10
+VOLUME A TO B ==>              0 R 0 
+VOLUME B TO A ==>              0 R 0 
+Lien Bi-Directionnel sans VAG  2 5 10
  0 0 0 0 0 0 0 0 0 0
-Codes d'approches                        3 C 0 
+Codes d'approches              3 C 0 
 CONSTANT                        0.00000000000000E+0000  1.00000000000000E+0000 
 
 Continuité                      0.00000000000000E+0000  0.00000000000000E+0000 0123456789
@@ -243,8 +243,8 @@ Géométrie et Signalisation      0.00000000000000E+0000  0.00000000000000E+0000 E
 
 Progression                     0.00000000000000E+0000  0.00000000000000E+0000 12345
 
-Vitesse (km/h)                           0 R 0 
-Temps de parcours A-B (min)              5 R 0 v1*(1+p2*v5*(((v2+v4)/v3)^p3))
+Vitesse (km/h)                 0 R 0 
+Temps de parcours A-B (min)    5 R 0 v1*(1+p2*v5*(((v2+v4)/v3)^p3))
 CONSTANT                        0.00000000000000E+0000  1.00000000000000E+0000 
 
 <8> Temps à écoul.libre         0.00000000000000E+0000  0.00000000000000E+0000 
@@ -257,7 +257,7 @@ CONSTANT                        0.00000000000000E+0000  1.00000000000000E+0000
 
 Facteur d'Ajustement Horaire    0.00000000000000E+0000  1.00000000000000E+0000 
 
-Temps de parcours B-A (min)              5 R 0 v1*(1+p2*v5*(((v2+v4)/v3)^p3))
+Temps de parcours B-A (min)    5 R 0 v1*(1+p2*v5*(((v2+v4)/v3)^p3))
 CONSTANT                        0.00000000000000E+0000  1.00000000000000E+0000 
 
 <8> Temps à écoul.libre         0.00000000000000E+0000  0.00000000000000E+0000 
@@ -270,21 +270,21 @@ CONSTANT                        0.00000000000000E+0000  1.00000000000000E+0000
 
 Facteur d'Ajustement Horaire    0.00000000000000E+0000  1.00000000000000E+0000 
 
-   Débit de base A-B                     0 R 0 
-   Débit de base B-A                     0 R 0 
-   Capacité (véhicules/heure)            0 R 0 
-   Temps à écoul.libre (min)             2 R 2 
+   Débit de base A-B           0 R 0 
+   Débit de base B-A           0 R 0 
+   Capacité (véhicules/heure)  0 R 0 
+   Temps à écoul.libre (min)   2 R 2 
 CONSTANT                        6.00000000000000E+0001  1.00000000000000E+0000 
 
 Distance (km)                   1.00000000000000E+0000  0.00000000000000E+0000 
 
 Vitesse légale (km/h)          -1.00000000000000E+0000  0.00000000000000E+0000 
 
-VOLUME A TO B ==>                        0 R 0 
-VOLUME B TO A ==>                        0 R 2080 
-Lien uni-directionnel Factice            1 3 2
+VOLUME A TO B ==>              0 R 0 
+VOLUME B TO A ==>              0 R 2080 
+Lien uni-directionnel Factice  1 3 2
  0 0 0 0 0 0 0 0 0 0
-Codes d'approche                         3 C 0 
+Codes d'approche               3 C 0 
 CONSTANT                        0.00000000000000E+0000  1.00000000000000E+0000 
 
 Continuité                      0.00000000000000E+0000  0.00000000000000E+0000 0123456789
@@ -293,10 +293,10 @@ Géométrie et Signalisation      0.00000000000000E+0000  0.00000000000000E+0000 E
 
 Progression                     0.00000000000000E+0000  0.00000000000000E+0000 12345
 
-VOLUME A TO B ==>                        0 R 0 
-Lien bi-directionnel Factice             2 3 3
+VOLUME A TO B ==>              0 R 0 
+Lien bi-directionnel Factice   2 3 3
  0 0 0 0 0 0 0 0 0 0
-Codes d'approche                         3 C 0 
+Codes d'approche               3 C 0 
 CONSTANT                        0.00000000000000E+0000  1.00000000000000E+0000 
 
 Continuité                      0.00000000000000E+0000  0.00000000000000E+0000 0123456789
@@ -305,18 +305,18 @@ Géométrie et Signalisation      0.00000000000000E+0000  0.00000000000000E+0000 E
 
 Progression                     0.00000000000000E+0000  0.00000000000000E+0000 12345
 
-VOLUME A TO B ==>                        0 R 0 
-VOLUME B TO A ==>                        0 R 0 
-Lien d'accès Factice                     2 2 3
+VOLUME A TO B ==>              0 R 0 
+VOLUME B TO A ==>              0 R 0 
+Lien d'accès Factice           2 2 3
  0 0 0 0 0 0 0 0 0 0
-Non-utilisé                              0 R 0 
-VOLUME A TO B ==>                        0 R 0 
-VOLUME B TO A ==>                        0 R 0 
-Lien de Marquage                         1 1 0
+Non-utilisé                    0 R 0 
+VOLUME A TO B ==>              0 R 0 
+VOLUME B TO A ==>              0 R 0 
+Lien de Marquage               1 1 0
  0 0 0 0 0 0 0 0 0 0
-                                         0 0 0
+                               0 0 0
  0 0 0 0 0 0 0 0 0 0
-                                         0 0 0
+                               0 0 0
  0 0 0 0 0 0 0 0 0 0
 1 1 30 30 0 0 0 0
 15
@@ -841,31 +841,6 @@ Arial
 0 0 0 0 0 0 1 1 0
 0 0
 0 0 0 0 0 0
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-0
-0
-0
-0
-0
 END OF APPLICATION
 1 0 0 1 -1 0 0 0 0 0
 
@@ -2634,3 +2609,5 @@ lienBirirectionel_616657591594
 1 151 68 0 0 0 0 0 0 2 0 0 0 0 0
 11 68 232 0 0 0 0 0 0 0
 14 238 280 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0
