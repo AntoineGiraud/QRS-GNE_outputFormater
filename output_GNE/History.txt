@@ -1,0 +1,21 @@
+Parameters from: C:\Users\antoineL29\Documents\Poly\CIV6701 - Planification des transports\TP2\Nouveau dossier\QRSII8Project\
+QRS II Version: 8.2.5.32
+Time  10/8 11:28:40:592
+Bypassing Activity Allocation.
+Time  10/8 11:28:41:545
+HBW: 17.489  HBNW: 18.106  HB?: Undone  NHB: 14.949
+Freeway Hour Averaging Factor:  4.779E-07
+Expressway Hour Averaging Factor: 0.00318442
+Major Hour Averaging Factor: 0.00318442
+Minor Hour Averaging Factor: 0.00318442
+Collector Hour Averaging Factor: 0.00318442
+Local Hour Averaging Factor: 0.00318442
+Other Hour Averaging Factor: 0.00318442
+User A Hour Averaging Factor: 0.00318442
+User B Hour Averaging Factor: 0.00318442
+User C Hour Averaging Factor: 0.00318442
+User D Hour Averaging Factor: 0.00318442
+User P Hour Averaging Factor: 0.00318442
+User Q Hour Averaging Factor: 0.00318442
+User R Hour Averaging Factor: 0.00318442
+Done  10/8 11:28:41:780
