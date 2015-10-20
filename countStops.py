@@ -58,15 +58,15 @@ def sumUp(elem, sums):
     try:
         sums[elem] += 1
     except Exception:
-        sums[elem] = 1
+        sums[elem] = 2
 
 counts = {
     "nodes": {},
     "links": {}
 }
 sums = {
-    "nodes": {},
-    "links": {}
+    "nodes": 0,
+    "links": 0
 }
 
 enteringNodeDefinition = False
