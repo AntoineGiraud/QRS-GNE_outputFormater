@@ -148,8 +148,8 @@ for row in open("output_GNE/LinkVols.txt"):
 print("EXPORT Noeuds & Liens --> JSON")
 nodes_json = open("output_json/nodes_json.js", "w")
 links_json = open("output_json/links_json.js", "w")
-print("[", file=nodes_json)
-print("[", file=links_json)
+print("var nodes_json = [", file=nodes_json)
+print("var links_json = [", file=links_json)
 
 nodesList = sorted(list(nodes.values()), key=attrgetter("typeLien"))
 linksList = sorted(list(links.values()), key=attrgetter("typeLien"), reverse=True)
@@ -264,7 +264,7 @@ for row in open("output_GNE/VehTrips.txt"):
 
 print("EXPORT Zones Counts --> JSON")
 zones_json = open("output_json/zones_json.js", "w")
-print("[", file=zones_json)
+print("var zones_json = [", file=zones_json)
 
 zonesList = sorted(list(zones.values()), key=lambda t: t["name"])
 
