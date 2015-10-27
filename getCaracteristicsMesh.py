@@ -2,6 +2,7 @@ from Node import *
 from Line import *
 from operator import attrgetter
 import re
+import os
 
 
 # ####################################################
@@ -282,7 +283,72 @@ zones_csv = open("output_csv/zones.csv", "w")
 print("name,prodHBW,prodHBNW,prodHBnoIdea,prodNHB,attracHBW,attracHBNW,attracHBnoIdea,attracNHB,vehTripsLeaving,vehTripsEntering,vehTripsIntraZonal", file=zones_csv)
 
 for l in zonesList:
-    print("{},{},{},{},{},{},{},{},{},{},{},{}".format(l["name"],l["productions"]["HBW"],l["productions"]["HBNW"],l["productions"]["HBnoIdea"],l["productions"]["NHB"],l["attractions"]["HBW"],l["attractions"]["HBNW"],l["attractions"]["HBnoIdea"],l["attractions"]["NHB"],l["vehiculeTripsByZone"]["Leaving"],l["vehiculeTripsByZone"]["Entering"],l["vehiculeTripsByZone"]["IntraZonal"]), file=zones_csv)
+    print("{},{},{},{},{},{},{},{},{},{},{},{}".format(l["name"], l["productions"]["HBW"], l["productions"]["HBNW"], l["productions"]["HBnoIdea"], l["productions"]["NHB"], l["attractions"]["HBW"], l["attractions"]["HBNW"], l["attractions"]["HBnoIdea"], l["attractions"]["NHB"], l["vehiculeTripsByZone"]["Leaving"], l["vehiculeTripsByZone"]["Entering"], l["vehiculeTripsByZone"]["IntraZonal"]), file=zones_csv)
 
 zones_csv.close()
 print(len(zones), "zones dans output_json/zones.csv")
+
+
+# ####################################################
+# On va créer les matrices OD de temps entre les zones
+# ####################################################
+print("On va créer les matrices OD de temps entre les zones:")
+# CTimes
+
+zonesOD = []
+isIdTxt = False
+for row in open("output_GNE/NodeLabl.txt"):
+    zoneName = row.replace("\n", "").replace("C ", "").strip()
+    zoneOD = {
+        "zoneName": zoneName,
+        "id": zoneName.replace("Zone", "").replace(" - Universityy", ""),
+        "od": ""
+    }
+    try:
+        zoneOD["id"] = int(zoneOD["id"])
+    except Exception:
+        isIdTxt = True
+    zonesOD.append(zoneOD)
+# print(zonesOD)
+for file in os.listdir("output_GNE"):
+    if file.startswith("CTimes"):
+        # print(file)
+        for row in open("output_GNE/"+file):
+            zoneOD = row.replace("\n", "").replace("C ", "").strip()
+            zoneODarray = zoneOD.split(" ")
+            idQRS = int(zoneODarray[0])-1
+            thisZoneOD = zonesOD[idQRS]
+            zoneODarray[0] = str(thisZoneOD["id"])
+            # print(zoneODarray)
+            thisZoneOD["od"] = ",".join(zoneODarray)
+if isIdTxt:
+    zonesOD = sorted(zonesOD, key=lambda t: t["zoneName"])
+else:
+    zonesOD = sorted(zonesOD, key=lambda t: t["id"])
+# print(zonesOD)
+
+# ####################################################
+# On exporte les zones et leurs counts
+# ####################################################
+
+print("EXPORT Zones Counts --> JSON")
+zonesODCTimes_json = open("output_json/zonesODCTimes_json.js", "w")
+print("var zonesODCTimes_json = [", file=zonesODCTimes_json)
+
+i = 0
+for l in zonesOD:
+    print("    " + json.dumps(l) + ("," if i < len(zones)-1 else ""), file=zonesODCTimes_json)
+    i += 1
+
+print("]", file=zonesODCTimes_json)
+zonesODCTimes_json.close()
+print(len(zonesOD), "paires OD dans output_json/zonesODCTimes_json.js")
+
+print("EXPORT Zones Counts --> CSV")
+zonesODCTimes_csv = open("output_csv/zonesODCTimes.csv", "w")
+
+for z in zonesOD:
+    print(z["od"], file=zonesODCTimes_csv)
+
+zonesODCTimes_csv.close()
+print(len(zonesOD), "paires OD dans output_json/zonesODCTimes.csv")
