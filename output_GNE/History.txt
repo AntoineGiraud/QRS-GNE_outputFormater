@@ -1,8 +1,8 @@
-Parameters from: C:\Users\antoineL29\Documents\Poly\CIV6701 - Planification des transports\TP2\Nouveau dossier\QRSII8Project\
+Parameters from: F:\Documents\School\PolyMtl\2015-01 Cours Maitrise\CIV6701 - Planification des Transports\TP2 - La procédure séquentielle classique\Logiciel GNE QRSII\QRSII8Project\
 QRS II Version: 8.2.5.32
-Time  10/19 22:03:49:348
+Time  10/27 17:54:52:514
 Bypassing Activity Allocation.
-Time  10/19 22:03:50:199
+Time  10/27 17:54:52:686
 HBW: 18.885  HBNW: 19.423  HB?: Undone  NHB: 15.923
 Freeway Hour Averaging Factor:  4.779E-07
 Expressway Hour Averaging Factor: 0.00318442
@@ -18,4 +18,64 @@ User D Hour Averaging Factor: 0.00318442
 User P Hour Averaging Factor: 0.00318442
 User Q Hour Averaging Factor: 0.00318442
 User R Hour Averaging Factor: 0.00318442
-Done  10/19 22:03:50:519
+Bypassing Activity Allocation.
+Time  10/27 17:54:52:834
+HBW: 13.179  HBNW: 13.345  HB?: Undone  NHB: 13.386
+Iter: 1
+RMS change from previous iteration: 4541.73309960655
+Weight: 0.5
+Bypassing Activity Allocation.
+Time  10/27 17:54:52:974
+HBW: 13.933  HBNW: 14.191  HB?: Undone  NHB: 14.123
+Iter: 2
+RMS change from previous iteration: 1943.70964592027
+Weight: 0.33333333
+Bypassing Activity Allocation.
+Time  10/27 17:54:53:139
+HBW: 14.179  HBNW: 14.475  HB?: Undone  NHB: 14.357
+Iter: 3
+RMS change from previous iteration: 1010.34443101142
+Weight: 0.25
+Bypassing Activity Allocation.
+Time  10/27 17:54:53:287
+HBW: 14.343  HBNW: 14.659  HB?: Undone  NHB: 14.500
+Iter: 4
+RMS change from previous iteration: 516.829918806245
+Weight: 0.20000000
+Bypassing Activity Allocation.
+Time  10/27 17:54:53:427
+HBW: 14.391  HBNW: 14.724  HB?: Undone  NHB: 14.545
+Iter: 5
+RMS change from previous iteration: 415.878850381381
+Weight: 0.16666666
+Bypassing Activity Allocation.
+Time  10/27 17:54:53:559
+HBW: 14.380  HBNW: 14.718  HB?: Undone  NHB: 14.538
+Iter: 6
+RMS change from previous iteration: 374.63529053372
+Weight: 0.14285714
+Bypassing Activity Allocation.
+Time  10/27 17:54:53:687
+HBW: 14.368  HBNW: 14.722  HB?: Undone  NHB: 14.558
+Iter: 7
+RMS change from previous iteration: 300.066443701338
+Weight: 0.12500000
+Bypassing Activity Allocation.
+Time  10/27 17:54:54:214
+HBW: 14.366  HBNW: 14.726  HB?: Undone  NHB: 14.550
+Iter: 8
+RMS change from previous iteration: 227.867775169681
+Weight: 0.11111111
+Bypassing Activity Allocation.
+Time  10/27 17:54:54:387
+HBW: 14.347  HBNW: 14.708  HB?: Undone  NHB: 14.539
+Iter: 9
+RMS change from previous iteration: 174.135751400268
+Weight: 0.09999999
+Bypassing Activity Allocation.
+Time  10/27 17:54:54:562
+HBW: 14.366  HBNW: 14.727  HB?: Undone  NHB: 14.555
+Iter: 10
+RMS change from previous iteration: 191.566122277681
+Weight: 0.09090909
+Done  10/27 17:54:54:670
