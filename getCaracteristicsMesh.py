@@ -295,6 +295,7 @@ print(len(zones), "zones dans output_json/zones.csv")
 print("On va créer les matrices OD de temps entre les zones:")
 # CTimes
 
+zonesODkeys = []
 zonesOD = []
 isIdTxt = False
 for row in open("output_GNE/NodeLabl.txt"):
@@ -308,13 +309,16 @@ for row in open("output_GNE/NodeLabl.txt"):
         zoneOD["id"] = int(zoneOD["id"])
     except Exception:
         isIdTxt = True
+    zonesODkeys.append(zoneOD["zoneName"])
     zonesOD.append(zoneOD)
 # print(zonesOD)
+zonesODorderQRS = []
 for file in os.listdir("output_GNE"):
     if file.startswith("CTimes"):
         # print(file)
         for row in open("output_GNE/"+file):
             zoneOD = row.replace("\n", "").replace("C ", "").strip()
+            zonesODorderQRS.append(zoneOD)
             zoneODarray = zoneOD.split(" ")
             idQRS = int(zoneODarray[0])-1
             thisZoneOD = zonesOD[idQRS]
@@ -327,11 +331,31 @@ else:
     zonesOD = sorted(zonesOD, key=lambda t: t["id"])
 # print(zonesOD)
 
+newOrder = {}
+i = 0
+for z in zonesOD:
+    newOrder[z["zoneName"]] = i
+    i += 1
+print(zonesODkeys)
+print(newOrder)
+for z in zonesOD:
+    zoneOD = z["od"].split(',')
+    # print(z["od"])
+    id = zoneOD.pop(0)
+    tempZoneOD = [0] * len(zoneOD)
+    i = 0
+    for k in zonesODkeys:
+        tempZoneOD[newOrder[k]] = zoneOD[i]
+        i += 1
+    z["od"] = ",".join([id] + tempZoneOD)
+    print(z["od"])
+
+
 # ####################################################
 # On exporte les zones et leurs counts
 # ####################################################
 
-print("EXPORT Zones Counts --> JSON")
+print("EXPORT Zones OD --> JSON")
 zonesODCTimes_json = open("output_json/zonesODCTimes_json.js", "w")
 print("var zonesODCTimes_json = [", file=zonesODCTimes_json)
 
@@ -344,7 +368,7 @@ print("]", file=zonesODCTimes_json)
 zonesODCTimes_json.close()
 print(len(zonesOD), "paires OD dans output_json/zonesODCTimes_json.js")
 
-print("EXPORT Zones Counts --> CSV")
+print("EXPORT Zones OD ordered by zone name --> CSV")
 zonesODCTimes_csv = open("output_csv/zonesODCTimes.csv", "w")
 
 for z in zonesOD:
@@ -352,3 +376,12 @@ for z in zonesOD:
 
 zonesODCTimes_csv.close()
 print(len(zonesOD), "paires OD dans output_json/zonesODCTimes.csv")
+
+print("EXPORT Zones OD order QRS --> CSV")
+zonesODCTimes_orderQRS_csv = open("output_csv/zonesODCTimes_orderQRS.csv", "w")
+
+for z in zonesODorderQRS:
+    print(z, file=zonesODCTimes_orderQRS_csv)
+
+zonesODCTimes_orderQRS_csv.close()
+print(len(zonesODorderQRS), "paires OD dans output_json/zonesODCTimes_orderQRS.csv")
